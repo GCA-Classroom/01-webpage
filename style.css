@@ -1,0 +1,35 @@
+/* Set the background color of the entire page to light blue and center the text */
+body {
+  background-color: lightblue;
+  text-align: center;
+  font-family: Arial, sans-serif; /* Use Arial font for the entire page */
+}
+
+/* Style the card with a white background, border, padding, and center it */
+.card {
+  background-color: white;
+  border: 1px solid #ccc; /* Light grey border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Space inside the card */
+  margin: 20px auto; /* Center the card with auto margins */
+  width: 80%; /* Card width is 80% of the container */
+  max-width: 500px; /* Maximum width of the card */
+}
+
+/* Style the main heading with a larger font size and dark blue color */
+h1 {
+  font-size: 48px;
+  color: darkblue;
+}
+
+/* Style the subheading with a slightly smaller font size and slate gray color */
+h2 {
+  font-size: 32px;
+  color: slategray;
+}
+
+/* Style the paragraph with a readable font size and line spacing */
+p {
+  font-size: 18px;
+  line-height: 1.6; /* Line spacing for better readability */
+}
