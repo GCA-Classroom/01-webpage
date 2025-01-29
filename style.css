@@ -13,7 +13,14 @@ body {
   padding: 20px; /* Space inside the card */
   margin: 20px auto; /* Center the card with auto margins */
   width: 80%; /* Card width is 80% of the container */
-  max-width: 500px; /* Maximum width of the card */
+  max-width: 600px; /* Maximum width of the card */
+}
+
+/* Resize the image to fit inside the profile card */
+.card img {
+  width: 150px; /* Set the width of the image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Make the image circular */
 }
 
 /* Style the main heading with a larger font size and dark blue color */
@@ -32,4 +39,14 @@ h2 {
 p {
   font-size: 18px;
   line-height: 1.6; /* Line spacing for better readability */
+}
+
+/* Remove bullet points from the list and add spacing */
+ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+}
+
+li {
+  margin: 10px 0; /* Add spacing between list items */
 }
